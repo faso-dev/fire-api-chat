@@ -1,0 +1,16 @@
+[debug] [2020-03-03T14:05:59.454Z] ----------------------------------------------------------------------
+[debug] [2020-03-03T14:05:59.455Z] Command:       /usr/bin/node /usr/bin/firebase deploy
+[debug] [2020-03-03T14:05:59.455Z] CLI Version:   7.14.0
+[debug] [2020-03-03T14:05:59.455Z] Platform:      linux
+[debug] [2020-03-03T14:05:59.455Z] Node Version:  v12.16.1
+[debug] [2020-03-03T14:05:59.456Z] Time:          Tue Mar 03 2020 14:05:59 GMT+0000 (GMT)
+[debug] [2020-03-03T14:05:59.456Z] ----------------------------------------------------------------------
+[debug] [2020-03-03T14:05:59.456Z] 
+[debug] [2020-03-03T14:05:59.460Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-03T14:05:59.461Z] > authorizing via signed-in user
+[debug] [2020-03-03T14:05:59.461Z] [iam] checking project chat-app-6c381 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-03-03T14:05:59.462Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/chat-app-6c381:testIamPermissions  
+
+[debug] [2020-03-03T14:06:01.414Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-03T14:06:01.417Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/chat-app-6c381  
+ 
